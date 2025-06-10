@@ -4,9 +4,8 @@
 ## раскомментировать. Строки, начинающиеся с одной '#' — комментированный код,
 ## который вы можете раскомментировать, если посчитаете это нужным.
 
-init python:
-    define config.force_web_zip_download = False
-    define config.file_extension_blacklist = ['.zip']
+define config.force_web_zip_download = False  # Отключаем запрос game.zip
+define config.file_extension_blacklist = ['.zip']  # Блокируем .zip файлы
 
 ## Основное ####################################################################
 
