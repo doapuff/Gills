@@ -215,17 +215,7 @@
     </form>
   </div>
 
-  <script>
-      // The URL to game.zip, relative to the URL of this file.
-      window.gameZipURL = 'game.zip';
 
-      // Register the service worker.
-      if (navigator.serviceWorker) {
-          if (!navigator.serviceWorker.controller) {
-              navigator.serviceWorker.register('./service-worker.js', { updateViaCache: 'all' });
-          }
-      }
-  </script>
   <script src="renpy-pre.js"></script>
   <script async type="text/javascript" src="renpy.js"></script>
 </body>
